@@ -1,5 +1,5 @@
 import copy
-
+import LZW
 from PIL import Image
 
 
