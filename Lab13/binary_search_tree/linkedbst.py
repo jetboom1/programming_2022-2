@@ -451,7 +451,7 @@ class LinkedBST(AbstractCollection):
         def search_balanced_bst(bst, words):
             bst.rebalance()
             start_time = time.time()
-            for word in words
+            for word in words:
                 bst.find(word)
             end_time = time.time()
             return end_time - start_time
